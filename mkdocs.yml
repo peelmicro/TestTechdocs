@@ -1,0 +1,8 @@
+site_name: "TestTechdocs"
+site_description: "This is a test for Techdocs"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

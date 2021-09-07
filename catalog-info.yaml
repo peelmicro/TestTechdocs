@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TestTechdocs"
+  description: "This is a test for Techdocs"
+  annotations:
+    github.com/project-slug: peelmicro/TestTechdocs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: ""
